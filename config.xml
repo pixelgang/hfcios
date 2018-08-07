@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8" ?>
-<widget id="com.digitalharm.house" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-	<name>House Submit</name>
+<widget id="com.digitalharm.house" version="1.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>House for Cash</name>
 	<description>House submital app</description>
 	<author href="http://www.digitalharmony.agency" email="support@digitalharmony.agency">Digital Harmony Agency</author>
 
@@ -8,6 +8,7 @@
 	<icon src="www/icon-128.png" width="128" height="128" density="xhdpi" />
 
 	<preference name="android-targetSdkVersion" value="26" />
+	<preference name="phonegap-version" value="cli-8.0.0" />
 
 	<preference name="orientation" value="portrait" />
 	<preference name="fullscreen" value="false" />

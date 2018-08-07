@@ -21542,5 +21542,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Browser,
 	cr.plugins_.Audio,
 	cr.plugins_.Touch.prototype.cnds.IsTouchingObject,
-	cr.plugins_.Browser.prototype.acts.GoToURL
+	cr.plugins_.Browser.prototype.acts.GoToURL,
+	cr.system_object.prototype.cnds.OnLayoutStart,
+	cr.system_object.prototype.acts.Wait,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
